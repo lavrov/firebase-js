@@ -1,0 +1,22 @@
+{
+  "dependencies": {
+    "firebase": "^10.5.2",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "name": "firebase",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "esbuild src/index.tsx --bundle --outfile=out.js --loader:.ts=tsx --format=esm",
+    "start": "esbuild src/index.tsx --bundle --outfile=out.js --loader:.ts=tsx --format=esm --serve --watch --servedir=."
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "esbuild": "0.19.5"
+  }
+}
